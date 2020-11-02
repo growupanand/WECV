@@ -13,11 +13,6 @@ import wevc
 
 chats = wevc.get_chats("Path\_chat.txt")
 
-if chats['result']:
-    print(chats)
-else:
-    return 'File does not  exist'
-    
 ```
 
 ## Example
@@ -44,14 +39,15 @@ chats = wevc.get_chats("Path\_chat.txt")
 if chats['result']:
     print(chats)
 else:
-    return 'File does not  exist'
+    print('File does not  exist')
+
     
 ```
 
 ### Output
-```JSON
+```python
 {
-  'result': True,
+  "result": True,
   'chats': [
     {
       'date': '[08/02/18, 1:57:28 PM]',
@@ -74,7 +70,7 @@ else:
     {
       'date': '[08/02/18, 2:02:43 PM]',
       'name': 'Santa',
-      'message': ' Good, can we show attachements also like below.',
+      'message': ' Good, can we show attachments also like below.',
       'attachment': None
     },
     {
@@ -107,8 +103,9 @@ else:
 ```
 
 ## Example 2
+You can create something looks good like this.
 
-
+![Example](Example.png)
 
 
 ## Contributing
