@@ -105,7 +105,7 @@ else:
 ## Example 2
 You can create something looks good like this.
 
-![Example](Example.png)
+![Example](https://github.com/growupanand/WECV/raw/master/Example.png)
 
 
 ## Contributing
