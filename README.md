@@ -1,6 +1,6 @@
 # WECV
 
-WECV - Whatsapp Export Chat Viewer is a python module, which can be used to read Whatsapp Export Chat file `_chat.txt`.
+**Whatsapp Export Chat Viewer** is a python module, which can be used to read Whatsapp `_chat.txt` file.
 
 ## Installation
 
